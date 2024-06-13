@@ -10,7 +10,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 800px;
+  max-width: 800px;
   position: relative;
   margin:auto;
 }
@@ -21,7 +21,7 @@ img {vertical-align: middle;}
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 20px;
-  padding: 8px 12px;
+  padding: 8px 0px;
   /*position: absolute;*/
   bottom: 20px;
   width: 100%;
@@ -55,7 +55,7 @@ img {vertical-align: middle;}
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
@@ -72,30 +72,30 @@ img {vertical-align: middle;}
 <body>
 
 <div class="Title Logo">
-<img src="MemberGalleryLogo.png" style="width:16%">
+<img src="MembersGalleryLogo(2).png" style="width:300px; padding: 20px;">
 <p></p>
 </div>
 
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl1.jpg?1628081141" style="width:fit-content;">
-  <div class="text">Anne Marie Bridges</div>
+  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl1.jpg?1628081141" style="max-width: 750px; max-height: 650px; position: relative;">
+  <div class="text">Ann Marie Bridges</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl2.jpg?1628081141" style="width:fit-content">
-  <div class="text">Anne Marie Bridges</div>
+  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl2.jpg?1628081141" style="max-width: 750px;max-height: 650px; position: relative;">
+  <div class="text">Ann Marie Bridges</div>
 </div>
 
 <div class="mySlides fade">
-  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl3.jpg?1628081141" style="width:fit-content">
-  <div class="text">Anne Marie Bridges</div>
+  <img src="http://cdn.membershipworks.com/u/58ee4da3178f4e104cdb9bdb_pl3.jpg?1628081141" style="max-width: 750px;max-height: 650px; position: relative;">
+  <div class="text">Ann Marie Bridges</div>
 </div>
 
 <div class="mySlides fade">
-    <img src="http://cdn.membershipworks.com/u/627a6b77c80c6921257fd10e_pl8.jpg?1713800441" style="width:fit-content">
-    <div class="text">Anne Marie Bridges</div>
+    <img src="http://cdn.membershipworks.com/u/627a6b77c80c6921257fd10e_pl8.jpg?1713800441" style="max-width: 750px; max-height: 650px; position: relative;">
+    <div class="text">Ann Marie Bridges</div>
   </div>
 
 </div>
@@ -127,7 +127,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  setTimeout(showSlides, 8000); // Change image every 8 seconds
 }
 </script>
 
